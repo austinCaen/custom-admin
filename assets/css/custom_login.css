@@ -1,0 +1,81 @@
+body{
+	background-color: #00326f;
+}
+#login{
+background-image: url(../images/admin-logo.png);
+background-size: 150px 150px;
+background-position: center 96%;
+	position: absolute;
+	top: 0;right: 0;bottom: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	background-repeat: no-repeat;
+}
+h1  a{
+display: none !important;
+}
+
+.pixelea-toggle-menu{display: none;}
+
+input:-webkit-autofill,input:focus:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+body .wp-core-ui .button.button-large.button-primary{
+	background:transparent !important;
+}
+input[type=text],input[type=password]{
+	font-size: 2rem;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom-style: striped;
+	 -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+label{font-size: 0!important;}
+label[for='rememberme']{font-size:.6rem!important;}
+#backtoblog{display: none;}
+
+.login #nav{
+	
+	position: absolute;
+	bottom: 0;right: 0;left: 0;
+	background-color: #00326f;
+	text-align: center;
+	
+}
+.login #nav a{color:white !important;}
+
+.forgetmenot{display: none;}
+.submit{text-align: center!important; display: block;height: auto; }
+#wp-submit.button.button-primary.button-large{
+	height: 40px;
+	display: inline-block;
+	border-radius:0;
+	border:none;
+	text-shadow:none;
+	float: none;
+	font-size: 1rem;
+	line-height: 2rem;
+	margin-top: 20px;
+	margin-bottom: -10px;	
+	background: #01408e;
+}
+..pixelea-logo{display: block;}
+.pixelea-logo img{
+
+	background: white;
+    padding: 20px;
+    max-width: 155px;
+    position: relative;
+    right: 5px;
+}
+.pixelea-logo img:after{
+	display: block;
+	content:" aaaa";
+	width: 10px;
+	height:10px;
+	border-style: solid;
+	border-width: 0 5px 5px 0;
+	border-color: transparent #007bff transparent transparent;
+}

@@ -1,0 +1,32 @@
+body{background:#d0d0d0;min-width: 800px !important;}
+.sticky-menu #adminmenuwrap {
+    top: 100px;
+}
+#adminmenuback{
+	background-image: url(../images/admin-logo.png);
+	background-size: 100px 100px;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+#wpadminbar{
+	background: #07519A;
+	position: relative;
+	left: -20px;
+	margin-top: -32px;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    background-color: #00326f;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu {
+ background-color:#198DFF;
+}
+
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+    position: relative;
+    background-color:#07519A;
+    color: white;
+}
+
+.pixelea-toggle-menu{ display: none!important;}
+
+
